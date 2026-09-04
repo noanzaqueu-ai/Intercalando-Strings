@@ -1,22 +1,22 @@
 # Interleaving String Checker
 
-## 📝 Descrição
+## 📝 Description
 
-Implementação de um algoritmo para verificar se uma string `s3` pode ser formada pelo intercalamento (interleaving) de duas strings `s1` e `s2`.
+Implementation of an algorithm to check if a string `s3` can be formed by the interleaving of two strings `s1` and `s2`.
 
-### Definição de Interleaving
+### Definition of Interleaving
 
-Um intercalamento de duas strings `s` e `t` é uma configuração onde `s` e `t` são divididas em `n` e `m` partes respectivamente, tal que:
+An interleaving of two strings `s` and `t` is a configuration where `s` and `t` are divided into `n` and `m` parts respectively, such that:
 
 - `s = s1 + s2 + ... + sn`
 - `t = t1 + t2 + ... + tm`
 - `|n - m| <= 1`
-- O intercalamento é `s1 + t1 + s2 + t2 + s3 + t3 + ...` ou `t1 + s1 + t2 + s2 + t3 + s3 + ...`
+- The interleaving is `s1 + t1 + s2 + t2 + s3 + t3 + ...` or `t1 + s1 + t2 + s2 + t3 + s3 + ...`
 
-## 🚀 Solução
+## 🚀 Solution
 
-### Abordagem: Programação Dinâmica
+### Approach: Dynamic Programming
 
-O problema é resolvido usando programação dinâmica com uma matriz tridimensional.
+The problem is solved using dynamic programming with a three-dimensional matrix.
 
-### Estrutura de Dados
+### Data Structure
